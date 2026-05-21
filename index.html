@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>寫在以後 — 暨大國企系畢業紀念專輯</title>
+  <meta name="description" content="暨大國企系 114 級畢業紀念 Mini Album《寫在以後》— 三首歌、一段青春，關於離別、關於同行、關於未來。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Particles Background -->
+  <div id="particles"></div>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="album-artwork">
+        <div class="vinyl-container">
+          <div class="vinyl-disc" id="vinylDisc">
+            <div class="vinyl-label"></div>
+          </div>
+          <img src="cover.png" alt="寫在以後 專輯封面" class="cover-img" id="coverImg">
+        </div>
+      </div>
+      <div class="hero-text">
+        <p class="album-label">NCNU IBS — 114 級畢業紀念</p>
+        <h1>寫在以後</h1>
+        <p class="album-subtitle">Mini Album · 三首歌 · 一段青春</p>
+      </div>
+    </div>
+    <div class="scroll-hint" id="scrollHint">
+      <span>往下探索</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- ===== 起心動念 ===== -->
+  <section id="about" class="fade-section">
+    <div class="section-inner">
+      <h2 class="section-title">起心動念</h2>
+      <div class="about-content">
+        <p>每一年，都有人用一首歌，替青春留下名字。<br>而今年，我們想做的，不只是畢業歌。</p>
+        <p class="highlight">我們想把整個國企系的青春，做成一張專輯。</p>
+        <p>有人會記得深夜教室還亮著的燈；<br>有人會記得報告前夕快崩潰的笑聲；<br>有人會記得划輕艇翻船那瞬間的尖叫、耶晚交換禮物時偷偷紅了的眼眶；<br>也有人會在很多年後，依然想起某個午後，在暨大校園裡吹過的風。</p>
+        <p>青春從來不是一個人的故事。<br>不是學號，不是成績，不是畢業證書上的名字。<br>而是那些一起熬過、笑過、愛過、迷惘過的人，彼此交織成的一段歲月。</p>
+        <p>所以今年，我們把回憶重新包裝。<br>不是單曲，而是一張屬於這一屆的 mini album。</p>
+        <div class="track-intro">
+          <p>第一首歌，唱的是《不說再見》。<br>那些來不及好好道別的時刻，我們用旋律留下。</p>
+          <p>第二首歌，我們把名字寫進彼此的故事裡。<br>因為青春最珍貴的，不只是夢想，而是一路同行的人。</p>
+          <p>第三首歌，唱給未來。<br>即使離開校園、走散在人海，我們都會有以後。</p>
+        </div>
+        <p class="highlight">而這一次，我們做了一件有點特別的事——<br>把每一個人，都寫進歌裡。</p>
+        <p>三首歌、一段青春。<br>關於離別、關於同行、關於未來；<br>關於那些在暨大國企相遇的人，如何一起笑著長大，又紅著眼眶學會道別。</p>
+        <p>於是你會聽見自己的名字，<br>也聽見朋友的名字、故事裡的名字、青春裡的名字。</p>
+        <p>因為這一次，我們想留下的不只是旋律，而是彼此存在過的證明。</p>
+        <p>或許很多年後，<br>你們會忘記某堂課、某次考試，甚至忘記青春曾經有多倉促。<br>但當熟悉的旋律再次響起，當耳機裡再次唱出那些名字——<br>你會突然想起，那些一起熬夜、一起大笑、一起青春過的人。</p>
+        <p class="closing">閉上眼睛，聽屬於你們的歌。<br>那些曾經閃閃發亮的日子，從來沒有真正離開過。</p>
+        <p class="signature">這不是一張專輯。<br>這是一封寫給青春的長信。<br>也是寫給每一位曾經在暨大國企努力生活過的你。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 收錄曲目 ===== -->
+  <section id="tracklist" class="fade-section">
+    <div class="section-inner">
+      <h2 class="section-title">收錄曲目</h2>
+
+      <!-- Track 1 -->
+      <div class="track-card" id="trackCard1">
+        <div class="track-header">
+          <div class="track-num">01</div>
+          <div class="track-info">
+            <h3>NCNU IBS Don't Say Goodbye</h3>
+            <span class="track-tag">關於離別</span>
+          </div>
+          <button class="play-btn" id="playBtn1" data-track="1" aria-label="播放">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+        </div>
+        <div class="audio-controls">
+          <div class="progress-bar" id="progressBar1">
+            <div class="progress-fill" id="progressFill1"></div>
+          </div>
+          <div class="time-row">
+            <span class="current-time" id="currentTime1">0:00</span>
+            <span class="total-time" id="totalTime1">--:--</span>
+          </div>
+        </div>
+        <button class="lyrics-toggle" data-target="lyrics1">
+          <span>展開歌詞</span>
+          <svg viewBox="0 0 24 24" width="16" height="16"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="lyrics-content" id="lyrics1"></div>
+        <audio id="audio1" preload="metadata" src="NCNU IBS  don't say goodbye.mp3"></audio>
+      </div>
+
+      <!-- Track 2 -->
+      <div class="track-card" id="trackCard2">
+        <div class="track-header">
+          <div class="track-num">02</div>
+          <div class="track-info">
+            <h3>我們的名字寫在彼此的故事裡</h3>
+            <span class="track-tag">關於同行</span>
+          </div>
+          <button class="play-btn" id="playBtn2" data-track="2" aria-label="播放">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+        </div>
+        <div class="audio-controls">
+          <div class="progress-bar" id="progressBar2">
+            <div class="progress-fill" id="progressFill2"></div>
+          </div>
+          <div class="time-row">
+            <span class="current-time" id="currentTime2">0:00</span>
+            <span class="total-time" id="totalTime2">--:--</span>
+          </div>
+        </div>
+        <button class="lyrics-toggle" data-target="lyrics2">
+          <span>展開歌詞</span>
+          <svg viewBox="0 0 24 24" width="16" height="16"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="lyrics-content" id="lyrics2"></div>
+        <audio id="audio2" preload="metadata" src="我們的名字寫在彼此的故事裡.mp3"></audio>
+      </div>
+
+      <!-- Track 3 -->
+      <div class="track-card" id="trackCard3">
+        <div class="track-header">
+          <div class="track-num">03</div>
+          <div class="track-info">
+            <h3>我們都會有以後</h3>
+            <span class="track-tag">關於未來</span>
+          </div>
+          <button class="play-btn" id="playBtn3" data-track="3" aria-label="播放">
+            <svg class="icon-play" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg>
+            <svg class="icon-pause" viewBox="0 0 24 24"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+        </div>
+        <div class="audio-controls">
+          <div class="progress-bar" id="progressBar3">
+            <div class="progress-fill" id="progressFill3"></div>
+          </div>
+          <div class="time-row">
+            <span class="current-time" id="currentTime3">0:00</span>
+            <span class="total-time" id="totalTime3">--:--</span>
+          </div>
+        </div>
+        <button class="lyrics-toggle" data-target="lyrics3">
+          <span>展開歌詞</span>
+          <svg viewBox="0 0 24 24" width="16" height="16"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="lyrics-content" id="lyrics3"></div>
+        <audio id="audio3" preload="metadata" src="我們都會有以後.mp3"></audio>
+      </div>
+
+      <p class="privacy-note">＊ 為尊重個資，歌詞中的人名均以同音字呈現。但每一個名字的聲音，都是真實的你。</p>
+    </div>
+  </section>
+
+  <!-- ===== 祝福 ===== -->
+  <section id="blessing" class="fade-section">
+    <div class="section-inner">
+      <h2 class="section-title">祝福</h2>
+      <div class="blessing-content">
+        <p class="blessing-to">致每一位即將啟程的國企人——</p>
+        <p>四年的時光，從青澀走向成熟，從迷惘走向堅定。</p>
+        <p>那些在暨大校園裡一起熬過的夜、一起笑過的日子、一起走過的路——<br>都已經成為最溫暖的底色。</p>
+        <p>願這份溫暖，能帶領你們勇敢地走向屬於自己的未來。<br>不管身在何處，都能記得自己曾經多麼努力、多麼認真地活過。</p>
+        <p class="blessing-final">畢業快樂，國企人。🎓</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer id="footer" class="fade-section">
+    <div class="footer-content">
+      <div class="forever-text">
+        <p class="forever-main">暨大國企系</p>
+        <p class="forever-sub">不管走到哪裡，國企永遠是你的後盾。<br>歡迎隨時回來。</p>
+      </div>
+      <p class="copyright">© 2026 NCNU IBS · Mini Album《寫在以後》</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
